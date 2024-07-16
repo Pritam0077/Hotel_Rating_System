@@ -1,0 +1,13 @@
+server:
+  port: 8084
+  
+spring:
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        git:
+         uri: https://github.com/Pritam0077/Microservice-Project-Config
+         clone-on-start: true
+   
